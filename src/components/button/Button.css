@@ -1,0 +1,36 @@
+/* Button.css */
+.button-primary, .button-secondary, .button-ternary
+{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+}
+
+.button-primary
+{
+    background-color: #007bff;
+    color: white;
+
+}
+
+.button-secondary
+{
+    background-color: #6c757d;
+    color: white;
+}
+
+.button-ternary
+{
+    background-color: white;
+    border-color: #6c757d;
+}
+
+.button-primary:hover, .button-secondary:hover
+{
+    opacity: 0.8;
+}
+
+.button-ternary:hover
+{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,46 @@
+*
+{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    font-family: Arial;
+}
+
+label
+{
+    display: block;
+    background-color:  rgba(128, 128, 128, 0.2);
+    width: max-content;
+}
+
+input
+{
+    border: none;
+    outline: none;
+    border-bottom: 0.2rem solid black;
+    transition: all 0.2s ease;
+}
+
+input:focus
+{
+    border-bottom-color: lawngreen;
+}
+
+input:disabled
+{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.small
+{
+    font-size: 0.5rem;
+}
+
+.medium
+{
+    font-size: 1rem;
+}
+
+.large
+{
+    font-size: 2rem;
+}
